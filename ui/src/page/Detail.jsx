@@ -122,7 +122,7 @@ export default function Detail() {
               <div className="col">
                 <label className="form-label">车间</label>
                 <select className="form-select"
-                  value={detail.dept_id}
+                  value={detail.dept}
                   onChange={(event) => {
                     dispatch({
                       type: 'dept',
